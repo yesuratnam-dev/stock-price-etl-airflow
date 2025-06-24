@@ -1,0 +1,16 @@
+aws:
+  region: us-east-1
+  s3_bucket: stock-price-data-bucket
+  
+stocks:
+  symbols:
+    - AAPL
+    - GOOGL
+    - MSFT
+    - AMZN
+    - TSLA
+  
+etl:
+  schedule_interval: "0 9 * * 1-5"  # 9 AM weekdays
+  max_retries: 3
+  retry_delay_minutes: 5
