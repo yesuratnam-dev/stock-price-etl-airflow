@@ -9,6 +9,7 @@ stocks:
     - MSFT
     - AMZN
     - TSLA
+    - TATAPOWER.NS
   
 etl:
   schedule_interval: "0 9 * * 1-5"  # 9 AM weekdays
